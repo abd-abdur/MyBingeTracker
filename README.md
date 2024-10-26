@@ -116,9 +116,7 @@ All AI-generated code and suggestions were reviewed and integrated thoughtfully 
 **Search for movies and TV shows**
 
 ![Searching movies and TV shows](https://github.com/abd-abdur/MyBingeTracker/blob/main/movie-tv-tracker/images/movie_search.png)
-![Personalized Watchlist](https://github.com/abd-abdur/MyBingeTracker/blob/main/movie-tv-tracker/images/watchlist.png)
-
 
 **Manage your personalized watchlist**
 
-![Personalized Watchlist](./images/watchlist.png)
+![Personalized Watchlist](https://github.com/abd-abdur/MyBingeTracker/blob/main/movie-tv-tracker/images/watchlist.png)
