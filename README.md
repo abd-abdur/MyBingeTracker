@@ -115,8 +115,8 @@ All AI-generated code and suggestions were reviewed and integrated thoughtfully 
 
 **Search for movies and TV shows**
 
-![Searching movies and TV shows](images/movie_search.png)
+![Searching movies and TV shows](./images/movie_search.png)
 
 **Manage your personalized watchlist**
 
-![Personalized Watchlist](images/watchlist.png)
+![Personalized Watchlist](./images/watchlist.png)
