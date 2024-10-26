@@ -13,7 +13,7 @@ const App = () => {
     return savedWatchlist ? JSON.parse(savedWatchlist) : [];
   });
   const [hasSearched, setHasSearched] = useState(false);
-  const [notification, setNotification] = useState(''); // New state for notification
+  const [notification, setNotification] = useState('');
 
   useEffect(() => {
     localStorage.setItem('watchlist', JSON.stringify(watchlist));
@@ -28,18 +28,19 @@ const App = () => {
   const addToWatchlist = (item) => {
     if (!watchlist.some((watchItem) => watchItem.id === item.id)) {
       setWatchlist((prevList) => [...prevList, item]);
-      showNotification("Movie successfully added to the watchlist!"); // Show notification
+      showNotification("Movie successfully added to the watchlist!");
     }
   };
 
   const removeFromWatchlist = (id) => {
     setWatchlist((prevList) => prevList.filter((item) => item.id !== id));
+    showNotification("Movie removed from watchlist!"); // Notification for removal
   };
 
   const showNotification = (message) => {
     setNotification(message);
     setTimeout(() => {
-      setNotification(''); // Clear the message after 3 seconds
+      setNotification('');
     }, 1500);
   };
 
@@ -73,7 +74,11 @@ const App = () => {
             />
             <Route
               path="/watchlist"
-              element={<WatchlistPage watchlist={watchlist} removeFromWatchlist={removeFromWatchlist} />}
+              element={<WatchlistPage 
+                watchlist={watchlist} 
+                removeFromWatchlist={removeFromWatchlist}
+                showNotification={showNotification}
+              />}
             />
           </Routes>
         </main>

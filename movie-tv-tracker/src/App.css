@@ -67,7 +67,6 @@ body {
   animation: fadein 0.3s, fadeout 0.3s 1.2s; /* Fade effects */
 }
 
-/* Fade-in and fade-out animations */
 @keyframes fadein {
   from { opacity: 0; }
   to { opacity: 1; }
@@ -137,16 +136,17 @@ input:focus {
   outline: none;
 }
 
-/* Search results and watchlist layout */
-.search-results,
-.watchlist {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+/* Watchlist and MovieCard layout */
+.watchlist-page, .search-results {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Creates flexible columns */
+  gap: 20px; /* Space between items */
+  padding: 20px;
+  justify-items: center; /* Center items horizontally */
 }
 
-.movie-card,
-.watchlist-item {
+/* Watchlist item styling */
+.watchlist-item, .movie-card {
   background-color: #333; /* Dark gray card background */
   border-radius: 8px;
   margin: 10px;
@@ -157,27 +157,28 @@ input:focus {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.movie-card:hover,
-.watchlist-item:hover {
-  transform: scale(1.05); /* Slight enlarge effect */
-}
-
-.movie-card img,
-.watchlist-item img {
+.movie-card img, .watchlist-item img {
   width: 100%;
   height: auto;
   border-bottom: 2px solid #E50914; /* Red line below image */
   margin-bottom: 10px;
 }
 
-/* Typography styling */
-h3 {
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin: 0;
+/* Add & Remove Button Styling */
+.movie-card button, .watchlist-item button {
+  background-color: #E50914; /* Netflix red */
+  color: white;
+  border: none;
+  padding: 6px 12px; /* Consistent padding */
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  width: 60%; /* Make it consistent and centered */
+  margin: 10px auto; /* Center the button horizontally */
+  display: block;
+  transition: background-color 0.3s;
 }
 
-p {
-  font-size: 0.9rem;
-  color: #b3b3b3; /* Netflix light gray for secondary text */
+.movie-card button:hover, .watchlist-item button:hover {
+  background-color: #b20710; /* Darker red on hover */
 }
