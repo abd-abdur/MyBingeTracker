@@ -101,23 +101,23 @@ During the development of **MyBingeTracker**, we utilized **ChatGPT**, a Large L
 
 #### JavaScript Code Generation
 
-- ChatGPT was instrumental in writing core JavaScript files, including `tmdbApi.js` for managing API interactions, and components like `SearchBar.js`, `SearchResults.js`, and `Watchlist.js`. It provided sample code for handling search functionalities, managing watchlists, and efficiently integrating the TMDb API.
-- The AI also helped in structuring the app's logic, offering suggestions for component-based architecture, which made the code more modular and easier to maintain.
+- ChatGPT was used in writing core JavaScript files, including `tmdbApi.js` for managing API interactions, and components like `SearchBar.js`, `SearchResults.js`, and `Watchlist.js`. It provided sample code for handling search functionalities, managing watchlists, and efficiently integrating the TMDb API.
+- The AI also helped in structuring the app's logic offering suggestions for component-based architecture which made the code more modular and easier to maintain.
 
 #### Debugging
 
-- Throughout the development process, ChatGPT assisted in troubleshooting issues, especially those related to React’s state management (e.g., `useState`, `useEffect`) and asynchronous API calls.
-- It offered insights and recommendations for handling common errors, improving error handling within components, and refactoring code for better readability and performance.
+- Throughout the development process, ChatGPT assisted in troubleshooting issues especially those related to React’s state management (e.g., `useState`, `useEffect`) and asynchronous API calls.
+- It offered insights and recommendations for handling common errors improving error handling within components, and refactoring code for better readability and performance.
 
 #### Optimization
 
 - ChatGPT reviewed and suggested improvements to make the app more responsive and efficient. This included optimizing search result rendering, minimizing unnecessary re-renders, and improving overall performance during API interactions.
-- It recommended best practices for React development, which helped in cleaning up code across multiple components, such as `MovieCard.js` and `WatchlistPage.js`.
+- It recommended best practices for React development which helped in cleaning up code across multiple components, such as `MovieCard.js` and `WatchlistPage.js`.
 
 #### Frontend Development (CSS and UI Design)
 
-- The AI provided sample CSS code for styling components, ensuring a consistent and modern look throughout the app. It helped draft styles for key elements, such as search bars, buttons, and cards, used across files like `App.css`.
-- ChatGPT also contributed to responsive design principles, offering CSS layouts that ensured the application looked and functioned well on various screen sizes, from desktop to mobile.
+- The AI provided sample CSS code for styling components ensuring a consistent and modern look throughout the app. It helped draft styles for key elements such as search bars, buttons, and cards, used across files like `App.css`.
+- ChatGPT also contributed to responsive design principles offering CSS layouts that ensured the application looked and functioned well on various screen sizes, from desktop to mobile.
 - Suggestions from the AI led to better visual consistency and improved user experience, with easy-to-follow layouts and intuitive navigation.
 
 All AI-generated code snippets, designs, and recommendations were carefully reviewed, customized, and integrated into the final product. This collaboration with ChatGPT significantly accelerated the development process, ensuring that **MyBingeTracker** maintained high code quality and delivered a smooth, user-friendly experience.
