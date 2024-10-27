@@ -46,7 +46,6 @@ Before you begin, ensure you have met the following requirements:
 
 ### Installation
 
-
 ### Step 1: Clone the Repository
 
 git clone https://github.com/yourusername/movie-tv-tracker.git
@@ -55,18 +54,7 @@ git clone https://github.com/yourusername/movie-tv-tracker.git
 After cloning the repository, navigate to the directory containing the project.
 cd path/to/movie-tv-tracker
 
-### Step 3: Set Up a Virtual Environment
-For Python-based projects, it's recommended to use a virtual environment to isolate project dependencies.
-```python -m venv .venv```
-
-Activate the virtual environment:
-On Windows: 
-```.\.venv\Scripts\activate```
-On macOS/Linux: source 
-```.venv/bin/activate```
-
-### Step 4: Install Required Dependencies
-Install the required packages from the requirements.txt file.
+### Step 3: Install Required Dependencies
 ```npm install```
 
 # Running the Application
