@@ -97,7 +97,7 @@ The page will automatically reload if you make edits. You will also see any lint
 
 ### AI Assistance
 
-During the development of **MyBingeTracker**, we utilized **ChatGPT**, a Large Language Model developed by OpenAI, to accelerate and enhance various aspects of the project. The AI contributions included assistance with JavaScript code, CSS styling, and general frontend development. Below are the specific ways ChatGPT was used:
+During the development of **MyBingeTracker**, I utilized **ChatGPT**, a Large Language Model developed by OpenAI, to accelerate and enhance various aspects of the project. The AI contributions included assistance with JavaScript code, CSS styling, and general frontend development. Below are the specific ways ChatGPT was used:
 
 #### JavaScript Code Generation
 
