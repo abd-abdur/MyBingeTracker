@@ -4,6 +4,7 @@ const BASE_URL = 'https://api.themoviedb.org/3';
 
 export const searchTMDb = async (query) => {
   try {
+    // Make a GET request to the TMDb search endpoint.
     const response = await fetch(
       `${BASE_URL}/search/multi?api_key=${API_KEY}&query=${encodeURIComponent(query)}`
     );
