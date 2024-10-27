@@ -15,6 +15,7 @@ const SearchBar = ({ onSearch }) => {
 
   return (
     <div className="search-bar-container">
+      {/* Input field for the user to type their search query. */}
       <input
         type="text"
         placeholder="Search for movies or TV shows..."
